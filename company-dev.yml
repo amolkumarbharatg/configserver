@@ -1,9 +1,12 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://admin:${jhipster.registry.password}@localhost:8761/eureka/
+      defaultZone: http://localhost:8100/eureka
 server:
   port: 8081
+
+
+
 
 info:
   app:
@@ -13,4 +16,4 @@ info:
 logging:
   file: D:/logs/CompanyService/application_dev.log
   level:
-    root: DEBUG
+    root: INFO
