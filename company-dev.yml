@@ -11,6 +11,6 @@ info:
     description: Spring company Actuator Working Examples Test jhipster
 
 logging:
-    level:
-        ROOT: INFO
-        io.github.jhipster: INFO
+  file: D:/logs/CompanyService/application_dev.log
+  level:
+    root: INFO
