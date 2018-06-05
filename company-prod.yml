@@ -9,7 +9,7 @@ spring:
     url: jdbc:postgresql://10.232.45.47:5432/microservices_company_prod
     username: postgres
 server:
-  port: 8082
+  port: 8081
 management:
   context-path: /companyactuator
 #spring:
