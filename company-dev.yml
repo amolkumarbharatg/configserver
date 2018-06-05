@@ -13,4 +13,4 @@ info:
 logging:
   file: D:/logs/CompanyService/application_dev.log
   level:
-    root: INFO
+    root: DEBUG
