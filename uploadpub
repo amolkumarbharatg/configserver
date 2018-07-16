@@ -1,0 +1,27 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:admin@localhost:8761/eureka/
+spring:
+  
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: postgres
+    url: jdbc:h2:mem:camunda
+    username: sa
+    password: sa
+server:
+  port: 8082
+management:
+  context-path: /uploadpubactuator
+#spring:
+ # profiles:
+  #  active: prod
+info:
+  app:
+    name: '{cipher}fa6b965e8ba672c148ab3884e64d7de114d5c2b4d5f2f7856bce24258eeca012'
+    description: Spring company Actuator Working dev testing 12
+logging:
+  file: D:/logs/uploadpublishService/application_dev.log
+  level:
+    root: INFO
