@@ -35,9 +35,17 @@ zuul:
       path: /downloadactuator/**
       strip-prefix: false
       serviceId: download
+    uploadpub:
+      path: /uploadpublish/**
+      strip-prefix: false
+      serviceId: uploadpub
+    uploadpub1:
+      path: /uploadpubactuator/**
+      strip-prefix: false
+      serviceId: uploadpub
     eureka:
       path: /eureka/**
-      url: http://localhost:8100
+      url: http://localhost:8761
     zipkin:
       path: /zipkin/**
       url: http://localhost:9411	  
